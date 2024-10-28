@@ -3,18 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
+    
     <title>Vercel HTML Starter</title>
     <meta
       name="description"
       content="High-performance HTML based website template."
+      
     />
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      .gradient {
+    background: linear-gradient(269deg, #1abdd7, #a900bb);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 41s ease infinite;
+    -moz-animation: AnimationName 41s ease infinite;
+    -o-animation: AnimationName 41s ease infinite;
+    animation: AnimationName 41s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+      main {
+        padding: 10PX;
+        height: 80vh;
+        
+      }
+      section.hero{
+       color: white;
+       text-align: center;
+       font-family: "Poppins", "sans-serif";
+       font-weight: 100;
+       font-style: normal
+        
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      
+    </style>
   </head>
   <body>
-    
+    <header></header>
+    <main class="gradient">
+      <section class="hero">
+      <h1>Hotel Total</h1>
+    </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
